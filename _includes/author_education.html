@@ -1,0 +1,44 @@
+{% if site.show_author_education_details == true %}
+    <div class="card">
+      <h1 class="card-title">Education</h1>
+      <br />
+      {% for detail in site.author_education_details %} 
+        {% if detail.visibility== true %}
+        <div class="row">
+          <div class="col-md-4">
+            <img
+              src="{{site.url}}{{site.baseurl}}/assets/img/{{ detail.college_logo}}"
+              class="company-logo"
+            />
+          </div>
+          <div class="col-md-8">
+            <h6 class="experience-title">{{detail.college_degree }}</h6>
+            <h6 class="experience-info">{{detail.college_name}}</h6>
+            <p class="experience-desc">{{detail.description}}</p>
+            
+            <!-- <p><a href="{{detail.college_url}}">{{ detail.college_url}}</a></p> -->
+          </div>
+        </div>
+        {% endif %} 
+      {% endfor %}
+
+      {% for detail2 in site.author_education_details2 %} 
+        {% if detail2.visibility== true %}
+        <div class="row">
+          <div class="col-md-4">
+            <img
+              src="{{site.url}}{{site.baseurl}}/assets/img/{{ detail2.college_logo}}"
+              class="company-logo"
+            />
+          </div>
+          <div class="col-md-8">
+            <h6 class="experience-title">{{detail2.college_degree }}</h6>
+            <h6 class="experience-info">{{detail2.college_name}}</h6>
+            <p class="experience-desc">{{detail2.description}}</p>
+            <!-- <p><a href="{{detail.college_url}}">{{ detail2.college_url}}</a></p> -->
+          </div>
+        </div>
+        {% endif %} 
+      {% endfor %}
+    </div>
+    {% endif %}

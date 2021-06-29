@@ -105,16 +105,13 @@ layout: default
     <div class="card">
       <h1>Skills</h1>
 
-      {%- include author_skills.html -%}
+      {%- include author_Skills.html -%}
     </div>
 
-    {% if site.wakatime_username %}
-    <div class="card">
-      <h1>Coding Activity</h1>
+    {%- include author_certificate.html -%}
 
-      {%- include coding_activity.html -%}
-    </div>
-    {% endif %}
+    {%- include author_education.html -%}
+
   </div>
   <div class="col-lg-8">
     {% if site.author_bio %}
@@ -149,7 +146,8 @@ layout: default
       <br />
       {% endif %} {% endfor %}
     </div>
-    {% endif %} {% if site.show_author_work_experiences == true %}
+    {% endif %} 
+    {% if site.show_author_work_experiences == true %}
     <div class="card">
       <h1 class="card-title">Work Experience</h1>
       <br />
@@ -172,50 +170,7 @@ layout: default
       {% endif %} {% endfor %}
     </div>
     {% endif %} 
-    {% if site.show_author_education_details == true %}
-    <div class="card">
-      <h1 class="card-title">Education</h1>
-      <br />
-      {% for detail in site.author_education_details %} 
-        {% if detail.visibility== true %}
-        <div class="row">
-          <div class="col-md-2">
-            <img
-              src="{{site.url}}{{site.baseurl}}/assets/img/{{ detail.college_logo}}"
-              class="company-logo"
-            />
-          </div>
-          <div class="col-md-6">
-            <h4 class="experience-title">{{detail.college_degree }}</h4>
-            <h6 class="experience-info">{{detail.college_name}}</h6>
-            <p class="experience-desc">{{detail.description}}</p>
-            
-            <!-- <p><a href="{{detail.college_url}}">{{ detail.college_url}}</a></p> -->
-          </div>
-        </div>
-        {% endif %} 
-      {% endfor %}
-
-      {% for detail2 in site.author_education_details2 %} 
-        {% if detail2.visibility== true %}
-        <div class="row">
-          <div class="col-md-2">
-            <img
-              src="{{site.url}}{{site.baseurl}}/assets/img/{{ detail2.college_logo}}"
-              class="company-logo"
-            />
-          </div>
-          <div class="col-md-6">
-            <h4 class="experience-title">{{detail2.college_degree }}</h4>
-            <h6 class="experience-info">{{detail2.college_name}}</h6>
-            <p class="experience-desc">{{detail2.description}}</p>
-            <!-- <p><a href="{{detail.college_url}}">{{ detail2.college_url}}</a></p> -->
-          </div>
-        </div>
-        {% endif %} 
-      {% endfor %}
-    </div>
-    {% endif %}
+    
   </div>
 </div>
 </div>

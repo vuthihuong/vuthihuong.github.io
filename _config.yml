@@ -67,7 +67,7 @@ author_education_details:
               - college_logo: NEU.png
                 college_name: NEU
                 college_url: https://neu.edu.vn
-                college_degree: Công nghệ thông tin
+                college_degree: Ngành&#58; Công nghệ thông tin
                 description: GPA &#58; 3.26/4<br />
                              Xếp loại&#58; Giỏi
                 visibility: true
@@ -76,9 +76,15 @@ author_education_details2:
               - college_logo: NEU.png
                 college_name: NEU
                 college_url: https://neu.edu.vn
-                college_degree: Kế toán tổng hợp
+                college_degree: Ngành&#58; Kế toán tổng hợp
                 description: GPA&#58; 2.78/4
                              <br />Xếp loại&#58; Khá
+                visibility: true
+
+
+author_certificate:
+              - cert_year: 2021
+                cert_name: Oracle Database 12c SQL Certified Associate (Công ty cử đi học, dự kiến tháng 8 thi chứng chỉ)
                 visibility: true
 
 # Projects
