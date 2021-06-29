@@ -81,22 +81,22 @@ author_education_details2:
                              <br />Xếp loại&#58; Khá
                 visibility: true
 
-
-author_certificate:
-              - cert_year: 2021
-                cert_name: Oracle Database 12c SQL Certified Associate (Công ty cử đi học, dự kiến tháng 8 thi chứng chỉ)
+#Certificate
+author_certificate_details:
+              - year: 2021
+                name: Oracle Database 12c SQL Certified Associate (Công ty cử đi học, dự kiến tháng 8 thi chứng chỉ)
                 visibility: true
-              - cert_year: 2021
-                cert_name: OCP Oracle Certified Professional Java SE 11 Developer (Đang ôn tập, dự kiến tháng 8 thi chứng chỉ)
+              - year: 2021
+                name: OCP Oracle Certified Professional Java SE 11 Developer (Đang ôn tập, dự kiến tháng 8 thi chứng chỉ)
                 visibility: true
-              - cert_year: 2020
-                cert_name: Toeic - 600 (Test of English for International Communication)
+              - year: 2020
+                name: Toeic - 600 (Test of English for International Communication)
                 visibility: true
-              - cert_year: 2020
-                cert_name: MOS2013 (MICROSOFT OFFICE SPECIALIST)
+              - year: 2020
+                name: MOS2013 (MICROSOFT OFFICE SPECIALIST)
                 visibility: true
-              - cert_year: 2016
-                cert_name: Global Java Developer FPT Software
+              - year: 2016
+                name: Global Java Developer FPT Software
                 visibility: true
               
 
@@ -202,6 +202,7 @@ permalink: pretty
 show_author_work_experiences: true
 show_author_education_details: true
 show_author_project_details: true
+show_author_certificate_details: true
 
 # pagination of posts
 paginate: 4

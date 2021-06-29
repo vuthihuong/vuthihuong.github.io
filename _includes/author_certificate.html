@@ -1,32 +1,17 @@
-{% if site.show_author_education_details == true %}
-    <div class="card">
+{% if site.show_author_certificate_details == true %}
+    <div id="author_projects" class="card">
       <h1 class="card-title">Certificate</h1>
       <br />
-      {% for detail in site.author_certificate %} 
-        {% if detail.visibility== true %}
-        <div class="row">
-          
-            <div class="responsive-table">
-              <table class="table table-striped">
-                <thead>
-                  <tr>
-                    <th scope="col">Năm</th>
-                    <th scope="col">Tên chứng chỉ</th>
-                  </tr>
-                </thead>
-                <tbody>
-                  <tr>
-                    <td>{{detail.cert_year}}</td>
-                    <td>{{detail.cert_name}}</td>
-                  </tr>
-                </tbody>
-              </table>
-               
-            </div>
+      {% for certificate in site.author_certificate_details %} 
+        {% if certificate.visibility == true %}
+        <div class="row" id="project-card">
+          <div class="col-md-12 center">
+            <h4 class="experience-title">{{ certificate.year }}</h4>
+            <h6 class="experience-info">{{ certificate.name}}</h6>
+          </div>
         </div>
-        {% endif %} 
+        <br />
+        {% endif %}
       {% endfor %}
-
-      
     </div>
-    {% endif %}
+    {% endif %} 
