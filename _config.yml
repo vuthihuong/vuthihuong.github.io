@@ -83,17 +83,65 @@ author_education_details2:
 
 # Projects
 author_project_details:
-              - project_thumbnail: gamershub.png
+              - project_thumbnail: facebook.png
+                project_title: Hệ thống Product Catalog
+                project_description: Hệ thống kiểm soát biên bản tự động
+                project_url: https://hack4r.com
+                visibility: true 
+
+              - project_thumbnail: facebook.png
+                project_title: Hệ thống API gateway
+                project_description: Hệ thống tường lửa kiểm soát truy cập vào các hệ thống
+                project_url: https://hack4r.com
+                visibility: true 
+                
+              - project_thumbnail: facebook.png
+                project_title: Website kiểm soát biên bản tự động
+                project_description: Hệ thống kiểm soát biên bản tự động
+                project_url: https://hack4r.com
+                visibility: true 
+
+              - project_thumbnail: facebook.png
+                project_title: Mediation admin
+                project_description: Hệ thống cấu hình Mediation
+                project_url: https://hack4r.com
+                visibility: true 
+
+              - project_thumbnail: facebook.png
+                project_title: Revenue Assurance SMSC
+                project_description: Case kiểm soát doanh thu dịch vụ SMS mobile
+                project_url: https://hack4r.com
+                visibility: true 
+
+              - project_thumbnail: facebook.png
+                project_title: Shelf Managerment System - Smart Automatic Guided Vehicle ( SMS - AGV )
+                project_description: Hệ thống robot vận chuyển hàng tại nhà máy tại Thái Nguyên
+                project_url: https://hack4r.com
+                visibility: true     
+
+              - project_thumbnail: facebook.png
+                project_title: Robotic process automation( RPA )
+                project_description: Web sử dụng cho nhà máy Thái Nguyên, Bắc Ninh
+                project_url: https://hack4r.com
+                visibility: true           
+
+              - project_thumbnail: facebook.png
+                project_title: Robotic process automation( RPA )
+                project_description: Web sử dụng cho nhà máy Thái Nguyên, Bắc Ninh
+                project_url: https://hack4r.com
+                visibility: true
+
+              - project_thumbnail: facebook.png
+                project_title: Website Samsung Viet Nam Portal
+                project_description: Web sử dụng cho nhà máy Thái Nguyên, Bắc Ninh
+                project_url: https://hack4r.com
+                visibility: true
+
+              - project_thumbnail: facebook.png
                 project_title: Facebook 360
                 project_description: Dự án đánh giá độ tin cậy của người dùng dựa vào các thông tin lấy từ tài khoản người dùng và các ứng dụng liên quan.
                 project_url: https://vaymuon.vn
                 visibility: true
-              - project_thumbnail: facebook.png
-                project_title: Hack4r
-                project_description: A Platform built for Hackers and Penetration Testers
-                project_url: https://hack4r.com
-                visibility: true
-
 # social links
 twitter_username: johndoe
 github_username:  linhktqd
