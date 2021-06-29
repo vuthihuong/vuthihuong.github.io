@@ -86,6 +86,20 @@ author_certificate:
               - cert_year: 2021
                 cert_name: Oracle Database 12c SQL Certified Associate (Công ty cử đi học, dự kiến tháng 8 thi chứng chỉ)
                 visibility: true
+              - cert_year: 2021
+                cert_name: OCP Oracle Certified Professional Java SE 11 Developer (Đang ôn tập, dự kiến tháng 8 thi chứng chỉ)
+                visibility: true
+              - cert_year: 2020
+                cert_name: Toeic - 600 (Test of English for International Communication)
+                visibility: true
+              - cert_year: 2020
+                cert_name: MOS2013 (MICROSOFT OFFICE SPECIALIST)
+                visibility: true
+              - cert_year: 2016
+                cert_name: Global Java Developer FPT Software
+                visibility: true
+              
+
 
 # Projects
 author_project_details:

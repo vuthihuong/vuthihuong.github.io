@@ -7,23 +7,22 @@
         <div class="row">
           
             <div class="responsive-table">
-                <table>
-                      <thead>
-                        <tr>
-                          <th scope="col">Năm</th>
-                          <th scope="col">Tên chứng chỉ</th>
-                        </tr>
-                      </thead>
-                      <tbody>
-                        <tr>
-                          <td>{{detail.cert_year}}</td>
-                          <td>{{detail.cert_name}}</td>
-                          
-                        </tr>
-                       
-                      </tbody>
-                    </table>
-                    </div>
+              <table class="table table-striped">
+                <thead>
+                  <tr>
+                    <th scope="col">Năm</th>
+                    <th scope="col">Tên chứng chỉ</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>{{detail.cert_year}}</td>
+                    <td>{{detail.cert_name}}</td>
+                  </tr>
+                </tbody>
+              </table>
+               
+            </div>
         </div>
         {% endif %} 
       {% endfor %}
