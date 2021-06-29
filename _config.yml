@@ -1,9 +1,9 @@
-title: devlopr
-subtitle: A Portfolio Jekyll Theme Built for Developers
+title: Java Web Developer
+subtitle: Phát triển web sử dụng Java và các công nghệ liên quan
 description: >- # this means to ignore newlines until "baseurl:"
   devlopr-jekyll is a beautiful Jekyll Theme Built For Developers, which is optimized for speed and readability.
 
-url: "" # the base hostname & protocol for your site, e.g. https://example.github.io
+url: "http://localhost:4000" # the base hostname & protocol for your site, e.g. https://example.github.io
 baseurl: "" # the subpath of your site, e.g. /blog
 
 # Navigation
@@ -24,46 +24,71 @@ urls:
 
 # Edit Author details (For multi authors check _data/authors.yml)
 
-author_logo: profile.png
-author: John Doe
-author_bio: Hi, my name is John Doe. I built this site using devlopr-jekyll :D
-author_email: "mail@sujaykundu.com"
-author_location: India
-author_website_url: "https://sujaykundu.com"
+author_logo: linh.jpg
+author: Dương Thế Linh
+author_bio: Cảm ơn bạn đã ghé thăm. Mình là Linh - Java developer và lơ mơ một số thứ khác nữa.
+author_email: "linhktqd54@gmail.com"
+author_location: vietnam
+author_website_url: "https://linhktqd.github.io"
 typewrite-text: devlopr is a jekyll framework built for developers. You can edit this in _config.yml file
 
 # Experiences
 author_work_experiences:
-            - company_name: Google
-              company_logo: google.png
-              company_url: https://google.com
-              designation: Software Engineer
-              description: Worked on various Google Products
+            - company_name: Khối CNTT - Tổng công ty viễn thông Viettel
+              company_logo: viettel.png
+              company_url: https://www.samsungsds.com/
+              designation: Developer
+              description: Dự án&#58; 
+                           <br />
+                            - Hệ thống Product Catalog<br />
+                            - Hệ thống API Gateway<br />
+                            - Hệ thống kiểm soát biên bản<br />
+                            - Hệ thống quản lý cấu hình CDR Mediation <br />
+                            - Case mới kiểm soát doanh thu dịch vụ tin nhắn di động
               visibility: true
-            - company_name: Microsoft
-              company_logo: microsoft.png
-              company_url: https://microsoft.com
-              designation: Azure Developer
-              description: Worked on various Azure Cloud Products
+            - company_name: SAMSUNG SDS VIETNAM CO., LTD
+              company_logo: sds.jpg
+              company_url: https://www.samsungsds.com/
+              designation: Developer
+              description: Dự án&#58; <br />
+                            - Web SVP ( Samsung Viet Nam Portal )<br />
+                            - SEV/SEVT RPA (Robotic process automation)<br />
+                            - SMS AGV(Shelf Managerment System - Auto Guided Vehicle )<br />
+              visibility: true
+            - company_name: NEXTTECH GROUP
+              company_logo: nexttech.png
+              company_url: https://nexttech.asia/
+              designation: Research & Development
+              description: Dự án&#58; Facebook 360
               visibility: true
 
 # Education
 author_education_details:
-              - college_logo: mit.png
-                college_name: MIT
-                college_url: https://mit.org
-                college_degree: CS Engineer
-                description: Bachelor of Technology
+              - college_logo: NEU.png
+                college_name: NEU
+                college_url: https://neu.edu.vn
+                college_degree: Công nghệ thông tin
+                description: GPA &#58; 3.26/4<br />
+                             Xếp loại&#58; Giỏi
+                visibility: true
+
+author_education_details2:
+              - college_logo: NEU.png
+                college_name: NEU
+                college_url: https://neu.edu.vn
+                college_degree: Kế toán tổng hợp
+                description: GPA&#58; 2.78/4
+                             <br />Xếp loại&#58; Khá
                 visibility: true
 
 # Projects
 author_project_details:
               - project_thumbnail: gamershub.png
-                project_title: Gamers Hub
-                project_description: A Platform built for Gamers and Game Devs
-                project_url: https://gamershub.in
+                project_title: Facebook 360
+                project_description: Dự án đánh giá độ tin cậy của người dùng dựa vào các thông tin lấy từ tài khoản người dùng và các ứng dụng liên quan.
+                project_url: https://vaymuon.vn
                 visibility: true
-              - project_thumbnail: hack4r.PNG
+              - project_thumbnail: facebook.png
                 project_title: Hack4r
                 project_description: A Platform built for Hackers and Penetration Testers
                 project_url: https://hack4r.com
@@ -71,13 +96,13 @@ author_project_details:
 
 # social links
 twitter_username: johndoe
-github_username:  sujaykundu777
+github_username:  linhktqd
 facebook_username: johndoe
-linkedin_username: johndoe
+linkedin_username: dương-thế-linh-2b0176170
 behance_username: johndoe
 instagram_username: johndoe
 medium_username: johndoe
-telegram_username: johndoe
+telegram_username: Linhdt50
 dribbble_username: johndoe
 flickr_username: johndoe
 
