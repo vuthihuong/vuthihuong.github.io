@@ -1,5 +1,8 @@
 ---
 layout: full-width
+permalink: /#
+redirect_to:
+  - /about
 ---
 
 <script>
@@ -10,11 +13,9 @@ layout: full-width
   });
 </script>
     <div class="jumbotron" style="text-align: center;">
-      <img class="author-profile-img" src="{{site.url}}{{site.baseurl}}/assets/img/profile.png" />
-      <p class="jumbotron-heading">Hi, I am {{site.author}} !</p>
-      <p class="lead" id="typewriteText"></p>
-         {%- include github_star_button.html -%}
-         {%- include github_fork_button.html -%}
+      <img class="author-profile-img" src="{{site.url}}{{site.baseurl}}/assets/img/profile_linh.jpg" />
+      <p class="jumbotron-heading"> Mình là {{site.author_name}} !</p>
+      <!-- <p class="lead" id="typewriteText">Cảm ơn bạn đã ghé thăm!</p> -->
     </div>
     <div class="col-lg-8 offset-md-2">
       <section id="recent-articles">

@@ -1,5 +1,5 @@
 title: Java Web Developer
-subtitle: Phát triển web sử dụng Java và các công nghệ liên quan
+subtitle: Phát triển web với công nghệ Java
 description: >- # this means to ignore newlines until "baseurl:"
   devlopr-jekyll is a beautiful Jekyll Theme Built For Developers, which is optimized for speed and readability.
 
@@ -16,21 +16,21 @@ urls:
       url: /blog
     - text: Gallery
       url: /gallery
-    - text: Shop
-      url : /shop
-    - text: Contact
-      url : /contact
-
+    # - text: Shop
+    #   url : /shop
+    # - text: Contact
+    #   url : /contact
 
 # Edit Author details (For multi authors check _data/authors.yml)
 
 author_logo: profile_linh.jpg
 author: Dương Thế Linh
+author_name: Linh
 author_bio: Cảm ơn bạn đã ghé thăm. Mình là Linh - Java developer và lơ mơ một số thứ khác nữa.
 author_email: "linhktqd54@gmail.com"
-author_location: vietnam
+author_location: Mễ Trì Hạ - Nam Từ Liêm - Hà Nội
 author_website_url: "https://linhktqd.github.io"
-typewrite-text: devlopr is a jekyll framework built for developers. You can edit this in _config.yml file
+typewrite-text: 
 
 # Experiences
 author_work_experiences:
@@ -97,8 +97,7 @@ author_certificate_details:
                 visibility: true
               - year: 2016
                 name: Global Java Developer FPT Software
-                visibility: true
-              
+                visibility: true            
 
 
 # Projects
@@ -163,16 +162,16 @@ author_project_details:
                 project_url: https://vaymuon.vn
                 visibility: true
 # social links
-twitter_username: johndoe
+# twitter_username: johndoe
 github_username:  linhktqd
-facebook_username: johndoe
+# facebook_username: johndoe
 linkedin_username: dương-thế-linh-2b0176170
-behance_username: johndoe
-instagram_username: johndoe
-medium_username: johndoe
-telegram_username: Linhdt50
-dribbble_username: johndoe
-flickr_username: johndoe
+# behance_username: johndoe
+# instagram_username: johndoe
+# medium_username: johndoe
+# telegram_username: Linhdt50
+# dribbble_username: johndoe
+# flickr_username: johndoe
 
 #for comments ( we got Disqus and Hyvor Commenting, uncomment the one you want to use )
 
