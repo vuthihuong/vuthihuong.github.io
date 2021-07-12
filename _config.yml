@@ -1,7 +1,7 @@
 title: Java Web Developer
-subtitle: Phát triển web với công nghệ Java
+# subtitle: Phát triển web với công nghệ Java
 description: >- # this means to ignore newlines until "baseurl:"
-  devlopr-jekyll is a beautiful Jekyll Theme Built For Developers, which is optimized for speed and readability.
+  # devlopr-jekyll is a beautiful Jekyll Theme Built For Developers, which is optimized for speed and readability.
 
 url: "" # the base hostname & protocol for your site, e.g. https://example.github.io
 baseurl: "" # the subpath of your site, e.g. /blog
@@ -10,12 +10,12 @@ baseurl: "" # the subpath of your site, e.g. /blog
 urls:
     - text: Home
       url: /
-    - text: About
-      url: /about
-    - text: Blog
-      url: /blog
-    - text: Gallery
-      url: /gallery
+    # - text: About
+    #   url: /about
+    # - text: Blog
+    #   url: /blog
+    # - text: Gallery
+    #   url: /gallery
     # - text: Shop
     #   url : /shop
     # - text: Contact
@@ -26,7 +26,7 @@ urls:
 author_logo: profile_linh.jpg
 author: Dương Thế Linh
 author_name: Linh
-author_bio: Cảm ơn bạn đã ghé thăm. Mình là Linh - Java developer và lơ mơ một số thứ khác nữa.
+author_bio: Cảm ơn bạn đã ghé thăm.
 author_email: "linhktqd54@gmail.com"
 author_location: Mễ Trì Hạ - Nam Từ Liêm - Hà Nội
 author_website_url: "https://linhktqd.github.io"
