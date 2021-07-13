@@ -1,5 +1,5 @@
-title: Java Web Developer
-# subtitle: Phát triển web với công nghệ Java
+title: Dương Thế Linh
+subtitle: Java developer
 description: >- # this means to ignore newlines until "baseurl:"
   # devlopr-jekyll is a beautiful Jekyll Theme Built For Developers, which is optimized for speed and readability.
 
@@ -27,6 +27,7 @@ author_logo: profile_linh.jpg
 author: Dương Thế Linh
 author_name: Linh
 author_bio: Cảm ơn bạn đã ghé thăm.
+author_mobile: 0388909324
 author_email: "linhktqd54@gmail.com"
 author_location: Mễ Trì Hạ - Nam Từ Liêm - Hà Nội
 author_website_url: "https://linhktqd.github.io"
@@ -35,11 +36,13 @@ typewrite-text:
 # Experiences
 author_work_experiences:
             - company_name: Khối CNTT - Tổng công ty viễn thông Viettel
+              company_time: 10/2019 - nay
               company_logo: viettel.png
               company_url: https://www.samsungsds.com/
               designation: Developer
               description: Dự án&#58; 
                            <br />
+                           - Hệ thống Product Catalog 2.0 <br />
                             - Hệ thống Product Catalog<br />
                             - Hệ thống API Gateway<br />
                             - Hệ thống kiểm soát biên bản<br />
@@ -47,6 +50,7 @@ author_work_experiences:
                             - Case mới kiểm soát doanh thu dịch vụ tin nhắn di động
               visibility: true
             - company_name: SAMSUNG SDS VIETNAM CO., LTD
+              company_time: 01/2018 - 10/2019
               company_logo: sds.jpg
               company_url: https://www.samsungsds.com/
               designation: Developer
@@ -56,6 +60,7 @@ author_work_experiences:
                             - SMS AGV(Shelf Managerment System - Auto Guided Vehicle )<br />
               visibility: true
             - company_name: NEXTTECH GROUP
+              company_time: 10/2017 - 12/2017
               company_logo: nexttech.png
               company_url: https://nexttech.asia/
               designation: Research & Development
@@ -84,10 +89,10 @@ author_education_details2:
 #Certificate
 author_certificate_details:
               - year: 2021
-                name: Oracle Database 12c SQL Certified Associate (Công ty cử đi học, dự kiến tháng 8 thi chứng chỉ)
+                name: OCA - Oracle Database 12c SQL Certified Associate (Công ty cử đi học, dự kiến tháng 8 thi chứng chỉ)
                 visibility: true
               - year: 2021
-                name: OCP Oracle Certified Professional Java SE 11 Developer (Đang ôn tập, dự kiến tháng 8 thi chứng chỉ)
+                name: OCP - Oracle Certified Professional Java SE 11 Developer (Đang ôn tập, dự kiến tháng 8 thi chứng chỉ)
                 visibility: true
               - year: 2020
                 name: Toeic - 600 (Test of English for International Communication)
