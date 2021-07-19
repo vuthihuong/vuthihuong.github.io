@@ -114,14 +114,16 @@ layout: default
 
     {%- include author_education.html -%}
 
+    {%- include author_hobbies.html -%}
+
   </div>
   <div class="col-lg-8">
-    {% if site.author_bio %}
+    <!-- {% if site.author_bio %}
     <div class="card">
       <h1 class="card-title">Hi</h1>
       <p>{{ site.author_bio }}</p>
     </div>
-    {% endif %} 
+    {% endif %}  -->
 
     {% if site.show_author_work_experiences == true %}
     <div class="card">
@@ -149,29 +151,39 @@ layout: default
     {% endif %} 
 
     {% if site.show_author_project_details == true %}
-    <div id="author_projects" class="card">
+    <div id="author_projects" class="card"> 
       <h1 class="card-title">Projects</h1>
       <br />
+
       {% for project in site.author_project_details %} 
         {% if project.visibility == true %}
-        <div class="row" id="project-card">
-          <div class="col-md-4">
-            <img
-              src="{{site.url}}{{site.baseurl}}/assets/img/{{project.project_thumbnail}}"
-              class="project-img-about"
-            />
-          </div>
-          <div class="col-md-6 center">
-            <h4 class="experience-title">{{ project.project_title }}</h4>
-            <h6 class="experience-info">{{ project.project_info}}</h6>
-            <p class="experience-desc">{{ project.project_description }}</p>
-            <!-- <p>
-              <a class="project-link" href="{{project.project_url}}"
-                >{{ project.project_url}}</a
-              >
-            </p> -->
-          </div>
+        <div class="col-md-8 center">
+          <h3 class="experience-title">{{ project.project_title }}</h3>
         </div>
+        <table class="table table-bordered">
+          <tbody>
+            <tr>
+              <th scope="col">Mô tả dự án</th>
+              <td>{{ project.project_description }}</td>
+            </tr>
+            <tr>
+              <th scope="col">Số thành viên</th>
+              <td>{{ project.project_dev_cnt }}</td>
+            </tr>
+            <tr>
+              <th scope="col">Vị trí</th>
+              <td>{{ project.project_dev_pos }}</td>
+            </tr>
+            <tr>
+              <th scope="col">Vai trò</th>
+              <td>{{ project.project_dev_des }}</td>
+            </tr>
+            <tr>
+              <th scope="col">Công nghệ sử dụng</th>
+              <td>{{ project.project_tech }}</td>
+            </tr>
+          </tbody>
+        </table>
         <br />
         {% endif %} 
       {% endfor %}

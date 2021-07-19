@@ -42,12 +42,13 @@ author_work_experiences:
               designation: Developer
               description: Dự án&#58; 
                            <br />
-                           - Hệ thống Product Catalog 2.0 <br />
-                            - Hệ thống Product Catalog<br />
+                            - Hệ thống Catalog 2.0 <br />
+                            - Hệ thống Catalog 1.0 <br />
+                            - Catalog Service thị trường Lào <br />
                             - Hệ thống API Gateway<br />
-                            - Hệ thống kiểm soát biên bản<br />
-                            - Hệ thống quản lý cấu hình CDR Mediation <br />
-                            - Case mới kiểm soát doanh thu dịch vụ tin nhắn di động
+                            - Hệ thống kiểm soát biên bản tự động <br />
+                            - Hệ thống quản lý cấu hình Mediation <br />
+                            - Kiểm soát doanh thu dịch vụ SMS
               visibility: true
             - company_name: SAMSUNG SDS VIETNAM CO., LTD
               company_time: 01/2018 - 10/2019
@@ -100,6 +101,9 @@ author_certificate_details:
               - year: 2020
                 name: MOS2013 (MICROSOFT OFFICE SPECIALIST)
                 visibility: true
+              - year: 2019
+                name: Intermediate data structures and algorithms Samsung SDS
+                visibility: true
               - year: 2016
                 name: Global Java Developer FPT Software
                 visibility: true            
@@ -107,65 +111,119 @@ author_certificate_details:
 
 # Projects
 author_project_details:
-              - project_thumbnail: facebook.png
-                project_title: Hệ thống Product Catalog
-                project_description: Hệ thống kiểm soát biên bản tự động
-                project_url: https://hack4r.com
+              - project_title: Hệ thống Catalog 2.0
+                project_description: Hệ thống khai báo chính sách và gói cước
+                project_dev_cnt: 12
+                project_dev_pos: Quản lý Outsource
+                project_dev_des: Phát triển checkpoint mới kiểm soát doanh thu dịch vụ tin nhắn di động
+                project_tech:   <p>- Đưa ra yêu cầu phát triển, công nghệ sử dụng <br />
+                                  - Reivew tài liệu giải pháp, ước lượng nỗ lực <br />
+                                  - Quản lý tiến độ và nghiệm thu 
                 visibility: true 
 
-              - project_thumbnail: facebook.png
-                project_title: Hệ thống API gateway
-                project_description: Hệ thống tường lửa kiểm soát truy cập vào các hệ thống
-                project_url: https://hack4r.com
+              - project_title: Hệ thống Catalog 1.0
+                project_description: Hệ thống khai báo chính sách và gói cước
+                project_dev_cnt: 4
+                project_dev_pos: Developer
+                project_dev_des: <p>- Phát triển module mới <br />
+                                  - Thay đổi cấu hình
+                project_tech:   <p>- PrimeFaces <br />
+                                  - Java, Spring boot <br />
+                                  - Oracle DB
                 visibility: true 
+
+              - project_title: Catalog Service thị trường Lào
+                project_description: Cung cấp API lấy dữ liệu cho thị trường Lào
+                project_dev_cnt: 1
+                project_dev_pos: Developer
+                project_dev_des:  Phát triển API cho thị trường Lào
+                project_tech:  <p>-Java, Spring boot <br />
+                                  - Maria DB
+                visibility: true 
+
+              - project_title: Hệ thống Api Gateway
+                project_description: Hệ thống quản lý truy nhập api
+                project_dev_cnt: 1
+                project_dev_pos: Vận hành hệ thống
+                project_dev_des:  <p>- Quản trị và vận hành hệ thống <br />
+                                  - Cấu hình hệ thống, cung cấp API key cho các service
+                project_tech:  Gravitee.io
+                visibility: true 
+
+              - project_title: Hệ thống kiểm soát biên bản tự động
+                project_description: Hệ thống đối soát biên bản doanh thu các dịch vụ viễn thông
+                project_dev_cnt: 4
+                project_dev_pos: Developer
+                project_dev_des:  <p>- Kiểm soát doanh thu ghi nhận giữa các hệ thống <br />
+                                  - Trình ký tự động
+                project_tech:  <p>- HTML, CSS, JS, Jquery, Bootstrap <br />
+                                  - Java, Spring MVC, Mybatis <br />
+                                  - Oracle DB, Hadoop
+                visibility: true 
+
+              - project_title: Mediation admin
+                project_description: Quản lý cấu hình của ứng dụng xử lý file cước thoại/sms.
+                project_dev_cnt: 4
+                project_dev_pos: Developer
+                project_dev_des:  <p>- Phát triển chức năng Clone từ app có sẵn <br />
+                                  - Chức năng cấu hình tiến trình GET, Codec, Convert, Combine, Filter, Push <br />
+                                  - Chức năng test full luồng 
+                project_tech:  <p>- HTML, CSS, JS, Jquery, Bootstrap <br />
+                                  - Java, Spring MVC, Mybatis <br />
+                                  - Oracle DBp
+                visibility: true
+
+              - project_title: Kiểm soát doanh thu dịch vụ SMS
+                project_description: Quản lý cấu hình của ứng dụng xử lý file cước thoại/sms.
+                project_dev_cnt: 5
+                project_dev_pos: Developer
+                project_dev_des:  Phát triển checkpoint mới kiểm soát doanh thu dịch vụ tin nhắn di động
+                project_tech:  <p>- Java <br />
+                                  - Oracle Database, Hadoop
+                visibility: true
+
+              - project_title: Samsung Viet Nam Portal
+                project_description: Dự án quản lý bảo mật, hành chính & nhân sự tại SEV/SEVT
+                project_dev_cnt: 10
+                project_dev_pos: Developer
+                project_dev_des:  <p>- Phát triển chức năng mới và bảo trì module Security, HR, GA <br />
+                                - Phát triển chức năng mới Hóa đơn điện tử, đăng ký thiết bị điện tử, đăng ký đỗ xe, ... <br />
+                                - Thay đổi logic hệ thống theo yêu cầu khách hàng Carry in/out, GWP, đặt phòng họp, ... 
+                project_tech:  <p>- JSP, HTML, CSS, Bootstrap, JS, Jquery <br />
+                                - Java, Spring MVC, Mybatis <br />
+                                - Postgres SQL
+                visibility: true
+
+              - project_title: Shelf Managerment System - Smart Automatic Guided Vehicle ( SMS - AGV )
+                project_description: Dự án quản lý robot tự hành
+                project_dev_cnt: 5
+                project_dev_pos: Developer
+                project_dev_des:  Lấy thông tin từ robot AGV để tạo các báo cáo trên SMS systems
+                project_tech:  <p>- Java FX <br />
+                                  - Spring MVC, Hibernate, BPEL <br />
+                                  - Oracle DB
+                visibility: true
+
+              - project_title: Robotic Process Automation
+                project_description: Dự án tự động hóa thay thế con người thực hiện các tác vụ trên máy tính
+                project_dev_cnt: 8
+                project_dev_pos: Developer
+                project_dev_des:  Phát triển các báo cáo mới Báo cáo sản lượng, báo cáo nguyên vật liệu,,..
+                project_tech:  <p>- JavaScript, VBA <br />
+                                 - RPA SDS tool
+                visibility: true
+
+              - project_title: Hệ thống Facebook 360
+                project_description: Thu thập dữ liệu người dùng và đưa ra đánh giá về độ tin cậy
+                project_dev_cnt: 10
+                project_dev_pos: Developer
+                project_dev_des:  <p>- Thu thập dữ liệu từ Facebook API, Facebook web, Zalo API,... <br />
+                                  - Bóc tách dữ liệu và lưu trữ.
+                project_tech:  <p>- Jquery, Bootstrap <br />
+                                  - Robot Framework, Python beautiful soup <br />
+                                  - MySQL
+                visibility: true
                 
-              - project_thumbnail: facebook.png
-                project_title: Website kiểm soát biên bản tự động
-                project_description: Hệ thống kiểm soát biên bản tự động
-                project_url: https://hack4r.com
-                visibility: true 
-
-              - project_thumbnail: facebook.png
-                project_title: Mediation admin
-                project_description: Hệ thống cấu hình Mediation
-                project_url: https://hack4r.com
-                visibility: true 
-
-              - project_thumbnail: facebook.png
-                project_title: Revenue Assurance SMSC
-                project_description: Case kiểm soát doanh thu dịch vụ SMS mobile
-                project_url: https://hack4r.com
-                visibility: true 
-
-              - project_thumbnail: facebook.png
-                project_title: Shelf Managerment System - Smart Automatic Guided Vehicle ( SMS - AGV )
-                project_description: Hệ thống robot vận chuyển hàng tại nhà máy tại Thái Nguyên
-                project_url: https://hack4r.com
-                visibility: true     
-
-              - project_thumbnail: facebook.png
-                project_title: Robotic process automation( RPA )
-                project_description: Web sử dụng cho nhà máy Thái Nguyên, Bắc Ninh
-                project_url: https://hack4r.com
-                visibility: true           
-
-              - project_thumbnail: facebook.png
-                project_title: Robotic process automation( RPA )
-                project_description: Web sử dụng cho nhà máy Thái Nguyên, Bắc Ninh
-                project_url: https://hack4r.com
-                visibility: true
-
-              - project_thumbnail: facebook.png
-                project_title: Website Samsung Viet Nam Portal
-                project_description: Web sử dụng cho nhà máy Thái Nguyên, Bắc Ninh
-                project_url: https://hack4r.com
-                visibility: true
-
-              - project_thumbnail: facebook.png
-                project_title: Facebook 360
-                project_description: Dự án đánh giá độ tin cậy của người dùng dựa vào các thông tin lấy từ tài khoản người dùng và các ứng dụng liên quan.
-                project_url: https://vaymuon.vn
-                visibility: true
 # social links
 # twitter_username: johndoe
 github_username:  linhktqd
