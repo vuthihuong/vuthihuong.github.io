@@ -115,10 +115,12 @@ author_project_details:
                 project_description: Hệ thống khai báo chính sách và gói cước
                 project_dev_cnt: 12
                 project_dev_pos: Quản lý Outsource
-                project_dev_des: Phát triển checkpoint mới kiểm soát doanh thu dịch vụ tin nhắn di động
-                project_tech:   <p>- Đưa ra yêu cầu phát triển, công nghệ sử dụng <br />
+                project_dev_des: <p>- Đưa ra yêu cầu phát triển, công nghệ sử dụng <br />
                                   - Reivew tài liệu giải pháp, ước lượng nỗ lực <br />
                                   - Quản lý tiến độ và nghiệm thu 
+                project_tech:   <p>- Angular <br />
+                                   - Java, Spring boot <br />
+                                   - Maria DB
                 visibility: true 
 
               - project_title: Hệ thống Catalog 1.0
