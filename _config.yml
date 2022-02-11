@@ -91,10 +91,10 @@ author_education_details2:
 author_certificate_details:
               - year: 2021
                 name: OCA - Oracle Database 12c SQL Certified Associate (Công ty cử đi học, dự kiến tháng 8 thi chứng chỉ)
-                visibility: true
+                visibility: false
               - year: 2021
                 name: OCP - Oracle Certified Professional Java SE 11 Developer (Đang ôn tập, dự kiến tháng 8 thi chứng chỉ)
-                visibility: true
+                visibility: false
               - year: 2020
                 name: Toeic - 600 (Test of English for International Communication)
                 visibility: true
