@@ -27,7 +27,7 @@ author_logo: profile_linh.jpg
 author: Dương Thế Linh
 author_name: Linh
 author_bio: Cảm ơn bạn đã ghé thăm.
-author_mobile: 0388909324
+author_mobile: 0394834999
 author_email: "linhktqd54@gmail.com"
 author_location: Mễ Trì Hạ - Nam Từ Liêm - Hà Nội
 author_website_url: "https://linhktqd.github.io"
@@ -35,8 +35,17 @@ typewrite-text:
 
 # Experiences
 author_work_experiences:
+            - company_name: SAMSUNG SDS VIETNAM CO., LTD
+              company_time: 10/2021 - nay
+              company_logo: sds.jpg
+              company_url: https://www.samsungsds.com/
+              designation: Developer
+              description: Dự án&#58; <br />
+                            - OPUS <br />
+                            - PLM - BOM <br />
+              visibility: true
             - company_name: Khối CNTT - Tổng công ty viễn thông Viettel
-              company_time: 10/2019 - nay
+              company_time: 10/2019 - 10/2021
               company_logo: viettel.png
               company_url: https://www.samsungsds.com/
               designation: Developer
@@ -89,28 +98,41 @@ author_education_details2:
 
 #Certificate
 author_certificate_details:
-              - year: 2021
-                name: OCA - Oracle Database 12c SQL Certified Associate (Công ty cử đi học, dự kiến tháng 8 thi chứng chỉ)
-                visibility: false
-              - year: 2021
-                name: OCP - Oracle Certified Professional Java SE 11 Developer (Đang ôn tập, dự kiến tháng 8 thi chứng chỉ)
-                visibility: false
               - year: 2020
                 name: Toeic - 600 (Test of English for International Communication)
                 visibility: true
               - year: 2020
                 name: MOS2013 (MICROSOFT OFFICE SPECIALIST)
-                visibility: true
-              - year: 2019
-                name: Intermediate data structures and algorithms Samsung SDS
-                visibility: true
+                visibility: false
               - year: 2016
                 name: Global Java Developer FPT Software
                 visibility: true            
 
-
 # Projects
 author_project_details:
+              - project_title: Hệ thống PLM module BOM
+                project_description: Phát triển chức năng cho module BOM
+                project_dev_cnt: 5
+                project_dev_pos: Developer FE & BE
+                project_dev_des: <p>- Cắt giao diện và xây dựng chức năng theo chuẩn thiết kế <br />
+                                  -  <br />
+                                  - Thiết kế API
+                project_tech:   <p>- JSP <br />
+                                   - Java, Struts <br />
+                                   - PostgreSQL
+                visibility: true 
+              - project_title: Hệ thống OPUS
+                project_description: Hệ thống cung cấp chuẩn UI/UX cho các hệ thống của Samsung SDS
+                project_dev_cnt: 5
+                project_dev_pos: Developer FE & BE
+                project_dev_des: <p>- Cắt giao diện và xây dựng chức năng theo chuẩn thiết kế <br />
+                                  -  <br />
+                                  - Thiết kế API
+                project_tech:   <p>- VueJs <br />
+                                   - Java, Spring boot <br />
+                                   - PostgreSQL
+                visibility: true 
+
               - project_title: Hệ thống Catalog 2.0
                 project_description: Hệ thống khai báo chính sách và gói cước
                 project_dev_cnt: 12
@@ -159,7 +181,7 @@ author_project_details:
                 project_dev_des:  <p>- Kiểm soát doanh thu ghi nhận giữa các hệ thống <br />
                                   - Trình ký tự động
                 project_tech:  <p>- HTML, CSS, JS, Jquery, Bootstrap <br />
-                                  - Java, Spring MVC, Mybatis <br />
+                                  - Java, Spring MVC, Struts <br />
                                   - Oracle DB, Hadoop
                 visibility: true 
 
