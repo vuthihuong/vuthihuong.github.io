@@ -23,13 +23,13 @@ urls:
 
 # Edit Author details (For multi authors check _data/authors.yml)
 
-author_logo: profile_linh.jpg
-author: Dương Thế Linh
-author_name: Linh
+author_logo: huongvt_4992.JPG
+author: Vũ Thị Hường
+author_name: Hường
 author_bio: Cảm ơn bạn đã ghé thăm.
-author_mobile: 0394834999
-author_email: "linhktqd54@gmail.com"
-author_location: Mễ Trì Hạ - Nam Từ Liêm - Hà Nội
+author_mobile: 0987643413
+author_email: "vuthihuong161996@gmail.com"
+author_location: Doãn Kế Thiện - Cầu Giấy - Hà Nội
 author_website_url: "https://vuthihuong.github.io"
 typewrite-text: 
 
@@ -250,7 +250,7 @@ author_project_details:
                 
 # social links
 # twitter_username: johndoe
-github_username:  linhktqd
+github_username:  vuthihuong
 # facebook_username: johndoe
 linkedin_username: dương-thế-linh-2b0176170
 # behance_username: johndoe
