@@ -79,12 +79,12 @@ author_work_experiences:
 
 # Education
 author_education_details:
-              - college_logo: NEU.png
-                college_name: NEU
+              - college_logo: Logo_Hust.png
+                college_name: HUST
                 college_url: https://neu.edu.vn
                 college_degree: Ngành&#58; Công nghệ thông tin
-                description: GPA &#58; 3.26/4<br />
-                             Xếp loại&#58; Giỏi
+                description: GPA &#58; 3.18/4<br />
+                             Xếp loại&#58; Khá
                 visibility: true
 
 author_education_details2:
@@ -94,18 +94,18 @@ author_education_details2:
                 college_degree: Ngành&#58; Kế toán tổng hợp
                 description: GPA&#58; 2.78/4
                              <br />Xếp loại&#58; Khá
-                visibility: true
+                visibility: false
 
 #Certificate
 author_certificate_details:
-              - year: 2020
-                name: Toeic - 600 (Test of English for International Communication)
+              - year: 2021
+                name: Oracle Certified Associate  (Oracle Database SQL Certified Associate)
                 visibility: true
               - year: 2020
                 name: MOS2013 (MICROSOFT OFFICE SPECIALIST)
                 visibility: false
-              - year: 2016
-                name: Global Java Developer FPT Software
+              - year: 2020
+                name: Toeic - 595 (Test of English for International Communication)
                 visibility: true            
 
 # Projects
