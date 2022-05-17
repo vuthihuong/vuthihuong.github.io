@@ -23,7 +23,7 @@ urls:
 
 # Edit Author details (For multi authors check _data/authors.yml)
 
-author_logo: huongvt_4992.JPG
+author_logo: huongvt_4992.jpg
 author: Vũ Thị Hường
 author_name: Hường
 author_bio: Cảm ơn bạn đã ghé thăm.
@@ -35,53 +35,48 @@ typewrite-text:
 
 # Experiences
 author_work_experiences:
-            - company_name: SAMSUNG SDS VIETNAM CO., LTD
-              company_time: 10/2021 - nay
-              company_logo: sds.jpg
+            - company_name: Khối Công nghệ thông tin - Tổng công ty viễn thông Viettel 
+              company_time: 08/2019 - nay
+             # company_logo: sds.jpg
               company_url: https://www.samsungsds.com/
-              designation: Developer
+              designation: Đối soát và phân tích dữ liệu 
               description: Dự án&#58; <br />
-                            - OPUS <br />
-                            - PLM - BOM <br />
+                            - Xây dựng các case cảnh báo  <br />
+                            - Phân tích dữ liệu bất thường  <br />
               visibility: true
-            - company_name: Khối CNTT - Tổng công ty viễn thông Viettel
-              company_time: 10/2019 - 10/2021
-              company_logo: viettel.png
+            - company_name: Công ty Công nghệ King Theme
+              company_time: 03/2019 - 07/2019
+            #  company_logo: viettel.png
               company_url: https://www.samsungsds.com/
-              designation: Developer
-              description: Dự án&#58; 
+              designation: Intern Front-end
+              description: Thực tập Front-end&#58; 
                            <br />
-                            - Hệ thống Catalog 2.0 <br />
-                            - Hệ thống Catalog 1.0 <br />
-                            - Catalog Service thị trường Lào <br />
-                            - Hệ thống API Gateway<br />
-                            - Hệ thống kiểm soát biên bản tự động <br />
-                            - Hệ thống quản lý cấu hình Mediation <br />
-                            - Kiểm soát doanh thu dịch vụ SMS
+                            - Xây dựng giao diện cho các dự án web của công ty  <br />
+                            - Chuyển các thiết kế PSD sang HTML/CSS <br />
               visibility: true
-            - company_name: SAMSUNG SDS VIETNAM CO., LTD
-              company_time: 01/2018 - 10/2019
-              company_logo: sds.jpg
+            - company_name: Công ty FGO system 
+              company_time: 08/2018 - 12/2018
+           3   company_logo: sds.jpg
               company_url: https://www.samsungsds.com/
-              designation: Developer
-              description: Dự án&#58; <br />
-                            - Web SVP ( Samsung Viet Nam Portal )<br />
-                            - SEV/SEVT RPA (Robotic process automation)<br />
-                            - SMS AGV(Shelf Managerment System - Auto Guided Vehicle )<br />
+              designation: Intern Wordpress Developer 
+              description: Thực tập lập trình Wordpress&#58; <br />
+                            - Chỉnh sửa cập nhật website - Tạo website mới bằng Wordpress <br />
+                            - Viết tài liệu cho công ty<br />
+                            - Test sản phẩm và viết testcase<br />
               visibility: true
-            - company_name: NEXTTECH GROUP
-              company_time: 10/2017 - 12/2017
-              company_logo: nexttech.png
+            - company_name: FPT
+              company_time: 07/2017 - 08/2017
+             # company_logo: logoFpt.jpg
               company_url: https://nexttech.asia/
-              designation: Research & Development
-              description: Dự án&#58; Facebook 360
+              designation: Intern Java Developer
+              description: Học tập Java cơ bản và sử dụng SQL Server 
               visibility: true
 
 # Education
 author_education_details:
-              - college_logo: Logo_Hust.png
+              #- college_logo: Logo_Hust.png
                 college_name: HUST
-                college_url: https://neu.edu.vn
+               # college_url: https://neu.edu.vn
                 college_degree: Ngành&#58; Công nghệ thông tin
                 description: GPA &#58; 3.18/4<br />
                              Xếp loại&#58; Khá
