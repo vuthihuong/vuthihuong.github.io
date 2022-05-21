@@ -38,7 +38,7 @@ author_work_experiences:
             - company_name: Khối Công nghệ thông tin - Tổng công ty viễn thông Viettel 
               company_time: 08/2019 - nay
               company_logo: viettel.png
-              company_url: https://www.samsungsds.com/
+             # company_url: https://www.samsungsds.com/
               designation: Đối soát và phân tích dữ liệu 
               description: Dự án&#58; <br />
                             - Xây dựng các case cảnh báo  <br />
@@ -46,8 +46,8 @@ author_work_experiences:
               visibility: true
             - company_name: Công ty Công nghệ King Theme
               company_time: 03/2019 - 07/2019
-              #company_logo: viettel.png
-              company_url: https://www.samsungsds.com/
+              company_logo: congnghe_kt.png
+             # company_url: https://www.samsungsds.com/
               designation: Intern Front-end
               description: Thực tập Front-end&#58; 
                            <br />
@@ -57,17 +57,17 @@ author_work_experiences:
             - company_name: Công ty FGO system 
               company_time: 08/2018 - 12/2018
              # company_logo: sds.jpg
-              company_url: https://www.samsungsds.com/
+             # company_url: https://www.samsungsds.com/
               designation: Intern Wordpress Developer 
               description: Thực tập lập trình Wordpress&#58; <br />
                             - Chỉnh sửa cập nhật website - Tạo website mới bằng Wordpress <br />
                             - Viết tài liệu cho công ty<br />
                             - Test sản phẩm và viết testcase<br />
-              visibility: true
+              visibility: false
             - company_name: FPT
               company_time: 07/2017 - 08/2017
               company_logo: logoFpt.jpg
-              company_url: https://nexttech.asia/
+             # company_url: https://nexttech.asia/
               designation: Intern Java Developer
               description: Học tập Java cơ bản và sử dụng SQL Server 
               visibility: true
@@ -105,59 +105,83 @@ author_certificate_details:
 
 # Projects
 author_project_details:
-              - project_title: Hệ thống PLM module BOM
-                project_description: Phát triển chức năng cho module BOM
-                project_dev_cnt: 5
-                project_dev_pos: Developer FE & BE
-                project_dev_des: <p>- Cắt giao diện và xây dựng chức năng theo chuẩn thiết kế <br />
-                                  -  <br />
-                                  - Thiết kế API
-                project_tech:   <p>- JSP <br />
-                                   - Java, Struts <br />
-                                   - PostgreSQL
-                visibility: true 
-              - project_title: Hệ thống OPUS
-                project_description: Hệ thống cung cấp chuẩn UI/UX cho các hệ thống của Samsung SDS
-                project_dev_cnt: 5
-                project_dev_pos: Developer FE & BE
-                project_dev_des: <p>- Cắt giao diện và xây dựng chức năng theo chuẩn thiết kế <br />
-                                  -  <br />
-                                  - Thiết kế API
-                project_tech:   <p>- VueJs <br />
-                                   - Java, Spring boot <br />
-                                   - PostgreSQL
-                visibility: true 
-
-              - project_title: Hệ thống Catalog 2.0
-                project_description: Hệ thống khai báo chính sách và gói cước
-                project_dev_cnt: 12
-                project_dev_pos: Quản lý Outsource
-                project_dev_des: <p>- Đưa ra yêu cầu phát triển, công nghệ sử dụng <br />
-                                  - Reivew tài liệu giải pháp, ước lượng nỗ lực <br />
-                                  - Quản lý tiến độ và nghiệm thu 
-                project_tech:   <p>- Angular <br />
-                                   - Java, Spring boot <br />
-                                   - Maria DB
-                visibility: true 
-
-              - project_title: Hệ thống Catalog 1.0
-                project_description: Hệ thống khai báo chính sách và gói cước
+              - project_title: Phân tích bất thường giữa doanh thu và chi phí 
+                project_description: Biến động giữa doanh thu và chi phí trong 6 tháng gần nhất
                 project_dev_cnt: 4
-                project_dev_pos: Developer
-                project_dev_des: <p>- Phát triển module mới <br />
-                                  - Thay đổi cấu hình
-                project_tech:   <p>- PrimeFaces <br />
-                                  - Java, Spring boot <br />
-                                  - Oracle DB
+                project_dev_pos: Phân tích dữ liệu
+                project_dev_des: <p>- Lấy dữ liệu doanh thu và chi phí trên hệ thống oracle và hadoop <br />
+                                  -  <br />
+                                  - Làm sạch dữ liệu
+                                  - Phân tích dữ liệu 
+                project_tech:   <p>- Python <br />
+                                   - Oracle, Hadoop
+                visibility: true 
+              - project_title: Thẩm định phiếu yêu cầu trên IBM 
+                project_description: Thẩm định, đánh giá yêu cầu kiểm soát cho các phiếu yêu cầu trên IBM
+                project_dev_cnt: 7
+                project_dev_pos: Đánh giá phiếu yêu cầu
+                project_dev_des: <p>- Đọc phiếu yêu cầu  <br />
+                                  - Trao đổi với đầu mối phiếu yêu cầu để làm rõ bài toán (nếu cần) <br />
+                                  - Đánh giá mức độ cần kiểm soát hay không của phiếu yêu cầu  
+                project_tech:   <p>- Hệ thống IBM <br />
                 visibility: true 
 
-              - project_title: Catalog Service thị trường Lào
-                project_description: Cung cấp API lấy dữ liệu cho thị trường Lào
+              - project_title: Thực hiện, triển khai IBM
+                project_description: Xây dựng các case cảnh báo cho các phiếu yêu cầu IBM cần kiểm soát trên hệ thồng vFMRA
+                project_dev_cnt: 7
+                project_dev_pos: Triển khai IBM
+                project_dev_des: <p>- Trao đổi tài liệu giải pháp với đầu mối phát triển phần mềm <br />
+                                  - Viết case kiểm soát theo yêu cầu của IBM <br />
+                                  - Dựng case kiểm soát tự động trên hệ thống vFMRA
+                project_tech:   <p>- Oracle, Hadoop <br />
+                visibility: true 
+
+              - project_title: Thực hiện, triển khai kiểm soát các case Thanh toán phí bán hàng 
+                project_description: Dựng case cảnh báo sai lệch trả phí bán hàng 
+                project_dev_cnt: 7
+                project_dev_pos: Kiểm soát case Thanh toán phí bán hàng 
+                project_dev_des: <p>- Viết case kiểm soát cho từng chính sách trả phí bán hàng cho kênh, đại lý <br />
+                                  - Dựng case kiểm soát tự động trên hệ thống vFMRA
+                project_tech:   <p>- Oracle, Hadoop <br />
+                visibility: true 
+
+              - project_title: Học JDBC Servlets và JSP trên Udemy
+                project_description: Phát triển ứng dụng web động sử dụng JDBC Servlets và JSP
                 project_dev_cnt: 1
                 project_dev_pos: Developer
-                project_dev_des:  Phát triển API cho thị trường Lào
-                project_tech:  <p>-Java, Spring boot <br />
-                                  - Maria DB
+                project_dev_des:  <p>- Phát triển ứng dụng web động <br />
+                                    - Tìm hiểu các nguyên tắc cơ bản của JDBC và sử dụng các giao diện khác nhau trong API JDBC <br />
+                                    - Tìm hiểu, Tạo và Triển khai Servlet <br />
+                                    - Khởi tạo động các tham số <br />
+                                    - Tìm hiểu cách quản lý session <br />
+                                    - Hiểu cách các JSP có thể giúp tách logic và chức năng Web khỏi bố cục trang <br />
+                                    - Tìm hiểu ý nghĩa và tầm quan trọng của MVC <br />
+                                    - Hiểu và triển khai tổng hợp các kết nối <br />
+                                    - Bảo mật cho ứng dụng web <br />
+                                    - Cấu hình hệ thống, cung cấp API key cho các service
+                project_tech:  Java, JSP, JSTL
+                visibility: true 
+
+              - project_title: Học Spring và Spring Boot trên Udemy
+                project_description: - Dự án 1: A CMS and Shopping Cart website with security <br />
+
+                                      -Dự án 2: A RESTful API and a REST client that consumer the API
+                project_dev_cnt: 1
+                project_dev_pos: Developer
+                project_dev_des:  <p>- Spring and Spring Boot <br />
+                                    - Thymeleaf <br />
+                                    - Spring Data Jpa <br />
+                                    - Cách xây dựng Restful API và client<br />
+                project_tech:  Java
+                visibility: true 
+
+              - project_title: Hệ thống Lumise
+                project_description: Xây dựng các theme trên nền tảng Wordpress cho thị trường Châu Âu
+                project_dev_cnt: 5
+                project_dev_pos: Developer
+                project_dev_des:  Cắt giao diện sử dụng HTML, CSS, JS 
+                project_tech:  <p>-HTML, CSS, JS <br />
+                                  - Photoshop
                 visibility: true 
 
               - project_title: Hệ thống Api Gateway
@@ -167,7 +191,7 @@ author_project_details:
                 project_dev_des:  <p>- Quản trị và vận hành hệ thống <br />
                                   - Cấu hình hệ thống, cung cấp API key cho các service
                 project_tech:  Gravitee.io
-                visibility: true 
+                visibility: false 
 
               - project_title: Hệ thống kiểm soát biên bản tự động
                 project_description: Hệ thống đối soát biên bản doanh thu các dịch vụ viễn thông
@@ -178,7 +202,7 @@ author_project_details:
                 project_tech:  <p>- HTML, CSS, JS, Jquery, Bootstrap <br />
                                   - Java, Spring MVC, Struts <br />
                                   - Oracle DB, Hadoop
-                visibility: true 
+                visibility: false 
 
               - project_title: Mediation admin
                 project_description: Quản lý cấu hình của ứng dụng xử lý file cước thoại/sms.
@@ -190,7 +214,7 @@ author_project_details:
                 project_tech:  <p>- HTML, CSS, JS, Jquery, Bootstrap <br />
                                   - Java, Spring MVC, Mybatis <br />
                                   - Oracle DBp
-                visibility: true
+                visibility: false
 
               - project_title: Kiểm soát doanh thu dịch vụ SMS
                 project_description: Quản lý cấu hình của ứng dụng xử lý file cước thoại/sms.
@@ -199,7 +223,7 @@ author_project_details:
                 project_dev_des:  Phát triển checkpoint mới kiểm soát doanh thu dịch vụ tin nhắn di động
                 project_tech:  <p>- Java <br />
                                   - Oracle Database, Hadoop
-                visibility: true
+                visibility: false
 
               - project_title: Samsung Viet Nam Portal
                 project_description: Dự án quản lý bảo mật, hành chính & nhân sự tại SEV/SEVT
@@ -211,7 +235,7 @@ author_project_details:
                 project_tech:  <p>- JSP, HTML, CSS, Bootstrap, JS, Jquery <br />
                                 - Java, Spring MVC, Mybatis <br />
                                 - Postgres SQL
-                visibility: true
+                visibility: false
 
               - project_title: Shelf Managerment System - Smart Automatic Guided Vehicle ( SMS - AGV )
                 project_description: Dự án quản lý robot tự hành
@@ -221,7 +245,7 @@ author_project_details:
                 project_tech:  <p>- Java FX <br />
                                   - Spring MVC, Hibernate, BPEL <br />
                                   - Oracle DB
-                visibility: true
+                visibility: false
 
               - project_title: Robotic Process Automation
                 project_description: Dự án tự động hóa thay thế con người thực hiện các tác vụ trên máy tính
@@ -230,7 +254,7 @@ author_project_details:
                 project_dev_des:  Phát triển các báo cáo mới Báo cáo sản lượng, báo cáo nguyên vật liệu,,..
                 project_tech:  <p>- JavaScript, VBA <br />
                                  - RPA SDS tool
-                visibility: true
+                visibility: false
 
               - project_title: Hệ thống Facebook 360
                 project_description: Thu thập dữ liệu người dùng và đưa ra đánh giá về độ tin cậy
@@ -241,7 +265,7 @@ author_project_details:
                 project_tech:  <p>- Jquery, Bootstrap <br />
                                   - Robot Framework, Python beautiful soup <br />
                                   - MySQL
-                visibility: true
+                visibility: false
                 
 # social links
 # twitter_username: johndoe
