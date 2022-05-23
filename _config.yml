@@ -111,7 +111,7 @@ author_project_details:
                 project_dev_pos: Phân tích dữ liệu
                 project_dev_des: <p>- Lấy dữ liệu doanh thu và chi phí trên hệ thống oracle và hadoop <br />
                                   -  <br />
-                                  - Làm sạch dữ liệu
+                                  - Làm sạch dữ liệu <br />
                                   - Phân tích dữ liệu 
                 project_tech:   <p>- Python <br />
                                    - Oracle, Hadoop
@@ -184,15 +184,6 @@ author_project_details:
                                   - Photoshop
                 visibility: true 
 
-              - project_title: Hệ thống Api Gateway
-                project_description: Hệ thống quản lý truy nhập api
-                project_dev_cnt: 1
-                project_dev_pos: Vận hành hệ thống
-                project_dev_des:  <p>- Quản trị và vận hành hệ thống <br />
-                                  - Cấu hình hệ thống, cung cấp API key cho các service
-                project_tech:  Gravitee.io
-                visibility: false 
-
               - project_title: Hệ thống kiểm soát biên bản tự động
                 project_description: Hệ thống đối soát biên bản doanh thu các dịch vụ viễn thông
                 project_dev_cnt: 4
@@ -224,48 +215,7 @@ author_project_details:
                 project_tech:  <p>- Java <br />
                                   - Oracle Database, Hadoop
                 visibility: false
-
-              - project_title: Samsung Viet Nam Portal
-                project_description: Dự án quản lý bảo mật, hành chính & nhân sự tại SEV/SEVT
-                project_dev_cnt: 10
-                project_dev_pos: Developer
-                project_dev_des:  <p>- Phát triển chức năng mới và bảo trì module Security, HR, GA <br />
-                                - Phát triển chức năng mới Hóa đơn điện tử, đăng ký thiết bị điện tử, đăng ký đỗ xe, ... <br />
-                                - Thay đổi logic hệ thống theo yêu cầu khách hàng Carry in/out, GWP, đặt phòng họp, ... 
-                project_tech:  <p>- JSP, HTML, CSS, Bootstrap, JS, Jquery <br />
-                                - Java, Spring MVC, Mybatis <br />
-                                - Postgres SQL
-                visibility: false
-
-              - project_title: Shelf Managerment System - Smart Automatic Guided Vehicle ( SMS - AGV )
-                project_description: Dự án quản lý robot tự hành
-                project_dev_cnt: 5
-                project_dev_pos: Developer
-                project_dev_des:  Lấy thông tin từ robot AGV để tạo các báo cáo trên SMS systems
-                project_tech:  <p>- Java FX <br />
-                                  - Spring MVC, Hibernate, BPEL <br />
-                                  - Oracle DB
-                visibility: false
-
-              - project_title: Robotic Process Automation
-                project_description: Dự án tự động hóa thay thế con người thực hiện các tác vụ trên máy tính
-                project_dev_cnt: 8
-                project_dev_pos: Developer
-                project_dev_des:  Phát triển các báo cáo mới Báo cáo sản lượng, báo cáo nguyên vật liệu,,..
-                project_tech:  <p>- JavaScript, VBA <br />
-                                 - RPA SDS tool
-                visibility: false
-
-              - project_title: Hệ thống Facebook 360
-                project_description: Thu thập dữ liệu người dùng và đưa ra đánh giá về độ tin cậy
-                project_dev_cnt: 10
-                project_dev_pos: Developer
-                project_dev_des:  <p>- Thu thập dữ liệu từ Facebook API, Facebook web, Zalo API,... <br />
-                                  - Bóc tách dữ liệu và lưu trữ.
-                project_tech:  <p>- Jquery, Bootstrap <br />
-                                  - Robot Framework, Python beautiful soup <br />
-                                  - MySQL
-                visibility: false
+             
                 
 # social links
 # twitter_username: johndoe
