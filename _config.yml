@@ -163,9 +163,8 @@ author_project_details:
                 visibility: true 
 
               - project_title: Học Spring và Spring Boot trên Udemy
-                project_description: - Dự án 1: A CMS and Shopping Cart website with security <br />
-
-                                      -Dự án 2: A RESTful API and a REST client that consumer the API
+                project_description: -  A CMS and Shopping Cart website with security <br />
+                                     -  A RESTful API and a REST client that consumer the API
                 project_dev_cnt: 1
                 project_dev_pos: Developer
                 project_dev_des:  <p>- Spring and Spring Boot <br />
