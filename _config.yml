@@ -38,6 +38,7 @@ author_work_experiences:
             - company_name: Khối Công nghệ thông tin - Tổng công ty viễn thông Viettel 
               company_time: 08/2019 - nay
               company_logo: viettel.png
+              company_url: https://www.samsungsds.com/
               designation: Đối soát và phân tích dữ liệu 
               description: Dự án&#58; <br />
                             - Xây dựng các case cảnh báo  <br />
@@ -46,6 +47,7 @@ author_work_experiences:
             - company_name: Công ty Công nghệ King Theme
               company_time: 03/2019 - 07/2019
               company_logo: congnghe_kt.png
+              company_url: https://www.samsungsds.com/
               designation: Intern Front-end
               description: Thực tập Front-end&#58; 
                            <br />
@@ -55,6 +57,7 @@ author_work_experiences:
             - company_name: Công ty FGO system 
               company_time: 08/2018 - 12/2018
               company_logo: sds.jpg
+              company_url: https://www.samsungsds.com/
               designation: Intern Wordpress Developer 
               description: Thực tập lập trình Wordpress&#58; <br />
                             - Chỉnh sửa cập nhật website - Tạo website mới bằng Wordpress <br />
@@ -64,6 +67,7 @@ author_work_experiences:
             - company_name: FPT
               company_time: 07/2017 - 08/2017
               company_logo: logoFpt.jpg
+              company_url: https://www.samsungsds.com/
               designation: Intern Java Developer
               description: Học tập Java cơ bản và sử dụng SQL Server 
               visibility: true
